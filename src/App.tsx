@@ -3,6 +3,7 @@ import Countfunctional from "./counter/Countfunctional";
 import Countclass from "./counter/Countclass";
 import Todoclass from "./todo/Todoclass";
 import Todofunctional from "./todo/Todofunctional";
+import Filtermap from "./filterwithmap/Filtermap";
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
       {/* <Countfunctional />
       <Countclass /> */}
       {/* <Todoclass /> */}
-      <Todofunctional />
+      {/* <Todofunctional /> */}
+      <Filtermap />
     </div>
   );
 };
