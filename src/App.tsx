@@ -4,17 +4,10 @@ import Countclass from "./counter/Countclass";
 import Todoclass from "./todo/Todoclass";
 import Todofunctional from "./todo/Todofunctional";
 import Filtermap from "./filterwithmap/Filtermap";
+import Form from "./Form";
 
 const App = () => {
-  return (
-    <div>
-      {/* <Countfunctional />
-      <Countclass /> */}
-      {/* <Todoclass /> */}
-      {/* <Todofunctional /> */}
-      <Filtermap />
-    </div>
-  );
+  return <Form />;
 };
 
 export default App;
